@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Angular-Cookbook :ramen:
+A Cookbook webapp i built to learn angular in depth
+
 # Cookbook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
@@ -26,7 +28,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# Angular-Cookbook :ramen:
-A Cookbook webapp i built to learn angular in depth
->>>>>>> 7feac43bb33d346da2742ee4cd83aa7766245939
+
