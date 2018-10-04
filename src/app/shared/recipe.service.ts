@@ -27,7 +27,7 @@ export class RecipeService {
       "https://img.bildderfrau.de/img/kochen-backen/crop210906227/4006637988-w820-cv16_9-q85-dc1/Carbonara.jpg",
       [
         new Ingredient("Noodles", 4),
-        new Ingredient("Gran Pardano", 2),
+        new Ingredient("Gran Padano", 2),
         new Ingredient("Eggs", 5)
       ]),
   ]; // recipe has to be an array of obj. with the class Recipe

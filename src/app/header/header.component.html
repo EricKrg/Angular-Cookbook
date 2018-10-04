@@ -5,13 +5,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a routerLink="/recipes" (click)="onRecipe()"
+        <li class="nav-item active"  routerLinkActive="active">
+          <a 
+          routerLink="/recipes" 
           class="nav-link" href="">Recipes <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a routerLink="/shoppinglist" class="nav-link" 
-          (click)="onShopping()" href="">Shopping list</a>
+          <a 
+          routerLink="/shoppinglist" 
+          class="nav-link"  href="">Shopping list</a>
         </li>
         <li class="nav-item dropdown">
           <a appDropdown class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
