@@ -18,7 +18,7 @@ const appRoutes = [
         ]},
     {path: 'recipes', component: RecipesComponent, 
         children: [
-        { path: ':name', component: RecipeDetailComponent},
+        { path: ':id/:name', component: RecipeDetailComponent},
     ]},
     //not found
     { path: 'not-found', component: ErrorComponent, data: {message: 'Page not found'}}, 

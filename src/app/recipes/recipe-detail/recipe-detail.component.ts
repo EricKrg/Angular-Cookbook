@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Recipe } from '../recipe.model';
 import { ShoppingService } from '../../shared/shopping.service';
-import { Route } from '@angular/compiler/src/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { RecipeService } from '../../shared/recipe.service';
 

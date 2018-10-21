@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
@@ -16,6 +16,11 @@ import { ShoppingService } from './shared/shopping.service';
 import { ErrorComponent } from './error/error.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCoffee, faReceipt } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCoffee, faReceipt)
 
 @NgModule({
   declarations: [
@@ -35,8 +40,10 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [ShoppingService],
   bootstrap: [AppComponent]
 })
